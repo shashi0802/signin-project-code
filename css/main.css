@@ -1,0 +1,165 @@
+.slide-color{
+    background-color: #457df3;
+    color: #fff;
+}
+.box-shadow{
+        box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}
+.slide-color h2{
+    font-size: 1.3125rem;
+    font-weight: 500;
+    font-family: "Fira Sans", "Helvetica", "Arial", sans-serif;
+    line-height: 1.16667em;
+    padding: 16px;
+}
+
+/* code for body */
+.signin-container{
+    max-width: 400px;
+    margin: auto;
+}
+.container-size{
+    margin-top: 16px;
+    padding: 16px;
+}
+form{
+    margin: 10px;
+}
+form input[type=text]{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #6c757d; 
+}
+#email-err{
+    display: none;
+    color: #ff1744;
+    margin: 0;
+    font-size: 0.75rem;
+    text-align: left;
+    margin-top: 8px;
+    min-height: 1em;
+    font-family: "Fira Sans", "Helvetica", "Arial", sans-serif;
+    line-height: 1em;
+}
+form input[type=password]{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #6c757d; 
+}
+#password-err{
+    display: none;
+    color: #ff1744;
+    margin: 0;
+    font-size: 0.75rem;
+    text-align: left;
+    margin-top: 8px;
+    min-height: 1em;
+    font-family: "Fira Sans", "Helvetica", "Arial", sans-serif;
+    line-height: 1em;
+}
+form input:hover{
+    border: none;
+    border-bottom: 2px solid #000;
+}
+
+.email-data{
+    padding-left: 10px;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+.pass-data{
+    padding-left: 10px;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+.label{
+    display: none;
+    color: #457df3;
+}
+
+.forgot{
+    color: #457df3;
+    padding-left: 10px;
+    font-size: 14px;
+    font-family: "Fira Sans", "Helvetica", "Arial", sans-serif;
+    cursor: pointer;
+    font-weight: bold;
+}
+.forgot a{
+    text-decoration: none;
+    color: #457df3;
+}
+.forgot:hover{
+    color: #155bf0;
+}
+
+/* button */
+.sub-btn{
+    max-width: 100px;
+    margin: 32px auto;
+    display: block;
+}
+.sub-btn a{
+    text-align: center;
+    background-color: #457df3;
+    padding: 8px 25px;
+    line-height: 1.4rem;
+    font-family: "Fira Sans", "Helvetica", "Arial", sans-serif;
+    font-weight: 500;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 4px;
+    color: #fff;
+
+}
+.sub-btn a:hover{
+    background-color:#155bf0;
+    color: #fff;
+    text-decoration: none;
+}
+
+.signin{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.54);
+    font-size: 14px;
+    font-family: "Fira Sans", "Helvetica", "Arial", sans-serif;
+}
+
+/* social media */
+.social-media{
+    max-width: 300px;
+    margin: 8px auto;
+}
+.social-media button{
+    text-align: center;
+    background: none;
+    border: none;
+    color: #155bf0;
+    padding: 8px 16px;
+}
+.social-media button a{
+    color: #155bf0;
+}
+.social-media button:hover{
+    background-color: rgba(69, 125, 243, 0.08);
+}
+.social-media button a:hover{
+    text-decoration: none;
+}
+/* footer code */
+.footer-container{
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+}
+.cont-ali{
+    margin-bottom: 8px;
+}
+.cont-ali p{
+    color: #bdbdbd;
+    font-size: 10px;
+    margin-top: 8px;
+    font-weight: 400;
+    font-family: "Fira Sans", "Helvetica", "Arial", sans-serif;
+    line-height: 1.46429em;
+}
